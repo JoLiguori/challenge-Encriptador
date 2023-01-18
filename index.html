@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="reset" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Vector.svg" alt="logo">
+    </header>
+    <main>
+        <section class="section1">
+           <textarea class="area">Ingrese el texto aquí</textarea> 
+           <div class="contenedor-botones">
+               <input class="btn-encriptar" type="button" value="Encriptar">
+               <input class="btn-desencriptar" type="button" value="Dencriptar">
+           </div>
+        </section>
+        <section class="section2">
+            <div class="contenedor-munheco">
+                <img class="munheco" src="img/Muñeco.svg" alt="munheco">
+            </div>
+            <div class="contenedor-h3">
+                <p>Ningún mensaje fue encontrado</p>
+            </div>
+
+            <div class="contenedor-parrafo">
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+            <div class="contenedor-resultado">
+                <h3 id="uno">Mensaje encriptado:</h3>
+                <p id="texto-final" class="texto-resultado"></p>
+            </div>
+
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" id="btn-copy" value="Copiar">
+                <p class="texto-copiado"></p>
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <p>Alura - Todos los derechos reservados 2022</p>
+    </footer>
+   <script src="javascrip.js"></script>
+</body>
+</html>
